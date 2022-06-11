@@ -6,12 +6,48 @@
 body {
     background: #F4F4F4;
     font-family: yekanbakh;
+    /* box-sizing: border-box; */
 }
 
 nav{
     background:#F1E8CE;
 }
+.row{
+    --bs-gutter-x: 0;
+}
 .navbar-toggler-icon:focus,.navbar-toggler:focus{
     outline: none;
   box-shadow: none;
 }
+.topBannerImg{
+
+    height: 50vh;
+    background: url(img/jewelryBanner1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}  
+.homePageAboutBanner{
+    width: 20rem;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+.lastProductsSec{
+    background: #eedca5;
+}
+.hrdivider {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hrdivider span {
+    position: absolute;
+    top: -11px;
+    background: #eedca5;
+    padding: 0 20px;
+    font-weight: bold;
+    /* font-size: 16px; */
+  }
+  
