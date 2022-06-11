@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'yekanbakh';
+    src: url('YekanBakh-Medium.woff2') format('woff2');
+}
+
+body {
+    background: #F4F4F4;
+    font-family: yekanbakh;
+}
+
+nav{
+    background:#F1E8CE;
+}
+.navbar-toggler-icon:focus,.navbar-toggler:focus{
+    outline: none;
+  box-shadow: none;
+}
